@@ -1,0 +1,17 @@
+site-material-construcao/
+│
+├── index.php
+├── produtos.php
+├── contato.php
+│
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── script.js
+│   └── img/
+│       └── (imagens dos produtos)
+│
+└── includes/
+    ├── header.php
+    └── footer.php
