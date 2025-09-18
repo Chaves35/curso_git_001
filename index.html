@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>AutoClean - Lavagem de Veículos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+  <header>
+    <h1>AutoClean</h1>
+    <p>Lavagem profissional de veículos com qualidade e rapidez</p>
+    <button class="btn">Agende Agora</button>
+  </header>
+
+  <section>
+    <h2>🚘 Nossos Serviços</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Lavagem Completa</h3>
+        <p>Interior e exterior com produtos biodegradáveis.</p>
+      </div>
+      <div class="card">
+        <h3>Polimento</h3>
+        <p>Restaure o brilho da pintura com nosso polimento técnico.</p>
+      </div>
+      <div class="card">
+        <h3>Higienização Interna</h3>
+        <p>Limpeza profunda de estofados, carpetes e ar-condicionado.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>💬 Depoimentos</h2>
+    <div class="testimonials">
+      <div class="card">
+        <p>"Meu carro ficou como novo! Atendimento excelente." – Carla M.</p>
+      </div>
+      <div class="card">
+        <p>"Serviço rápido e de qualidade. Recomendo!" – João P.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>📩 Fale Conosco</h2>
+    <form id="contato">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+      <button class="btn" type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AutoClean. Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    document.getElementById('contato').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Obrigado pelo contato! Retornaremos em breve.');
+      this.reset();
+    });
+  </script>
+
+</body>
+</html>
